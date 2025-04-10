@@ -77,8 +77,14 @@
 
             & span {
                 color: var(--color--blue);
+                font-size: 78px;
                 font-weight: 500;
                 display: inline;
+                font-family: var(--font--dancing);
+
+                @media (max-width: 768px){
+                    font-size: 58px;
+                }
             }
 
             @media (max-width: 768px){

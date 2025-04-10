@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         perPage: 1,
         autoplay: true,
         pagination: true,
+        focus: 'center',
         focus: clearInterval,
         gap: 10,
         padding: '5rem',
@@ -19,12 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
     splideAutoridade.mount();
 
     document.getElementById('autoridade-btnPrev').addEventListener('click', function () {
-        splide.go('<');
+        splideAutoridade.go('<');
         console.log("Botão de voltar foi clicado com sucesso");
     })
 
     document.getElementById('autoridade-btnNext').addEventListener('click', function () {
-        splide.go('>');
+        splideAutoridade.go('>');
         console.log("Botão de avançar foi clicado com sucesso");
     })
 
@@ -42,12 +43,12 @@ document.addEventListener('DOMContentLoaded', function () {
     splideDepoimentos.mount();
 
     document.getElementById('depoimentos-btnPrev').addEventListener('click', function () {
-        splide.go('<');
+        splideDepoimentos.go('<');
         console.log("Botão de voltar foi clicado com sucesso");
     })
 
     document.getElementById('depoimentos-btnNext').addEventListener('click', function () {
-        splide.go('>');
+        splideDepoimentos.go('>');
         console.log("Botão de avançar foi clicado com sucesso");
     })
 
@@ -70,12 +71,12 @@ document.addEventListener('DOMContentLoaded', function () {
     splidePalavra.mount();
 
     document.getElementById('palavra-btnPrev').addEventListener('click', function () {
-        splide.go('<');
+        splidePalavra.go('<');
         console.log("Botão de voltar foi clicado com sucesso");
     })
 
     document.getElementById('palavra-btnNext').addEventListener('click', function () {
-        splide.go('>');
+        splidePalavra.go('>');
         console.log("Botão de avançar foi clicado com sucesso");
     })
     
@@ -103,12 +104,12 @@ document.addEventListener('DOMContentLoaded', function () {
     splideGarantia.mount();
 
     document.getElementById('garantia-btnPrev').addEventListener('click', function () {
-        splide.go('<');
+        splideGarantia.go('<');
         console.log("Botão de voltar foi clicado com sucesso");
     })
 
     document.getElementById('garantia-btnNext').addEventListener('click', function () {
-        splide.go('>');
+        splideGarantia.go('>');
         console.log("Botão de avançar foi clicado com sucesso");
     })
 });
