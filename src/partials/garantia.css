@@ -102,11 +102,6 @@
     justify-content: center;
     gap: 10px;
     width: 100%;
-    display: none;
-
-    @media (max-width: 768px){
-        display: flex;
-    }
 
     & .garantia-btnNext,
     .garantia-btnPrev {
